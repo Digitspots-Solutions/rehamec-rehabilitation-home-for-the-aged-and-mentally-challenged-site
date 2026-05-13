@@ -1,0 +1,56 @@
+{
+  "businessName": "REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged",
+  "industry": "Healthcare & Social Services",
+  "tone": "compassionate, professional, trustworthy",
+  "tagline": "Providing Dignity, Care, and Hope to Our Most Vulnerable",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged. Providing Dignity, Care, and Hope to Our Most Vulnerable. At REHAMEC, we offer specialized rehabilitation and residential care services for elderly individuals and those facing mental health challenges across Nigeria. Our facility in Umuada Obehie combines medical expertise with compassionate support to restore independence and quality of life.",
+      "imagePrompt": "Warm, sunlit Nigerian care facility with elderly residents and caregivers sharing peaceful moments in a modern, clean communal space with local architectural touches, lush gardens visible through windows, conveying dignity and hope",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About REHAMEC",
+      "copy": "REHAMEC stands as a beacon of hope for families across Nigeria seeking professional, compassionate care for their elderly loved ones and individuals facing mental health challenges. Located in the peaceful community of Umuada Obehie, Asa, we provide a safe, nurturing environment where dignity meets dedicated rehabilitation. Our multidisciplinary team of healthcare professionals, therapists, and trained caregivers work together to create personalized care plans that address both physical and mental health needs. We understand the unique cultural context of Nigerian families and the importance of maintaining connections while providing specialized support. Every resident receives individualized attention in our modern facility, designed to feel like home while offering the medical and therapeutic interventions necessary for recovery and improved quality of life.",
+      "imagePrompt": "Professional Nigerian healthcare team consisting of doctors, nurses, and therapists standing together in a modern rehabilitation facility, with traditional Nigerian patterns subtly incorporated in the interior design, natural lighting creating a warm atmosphere",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "REHAMEC offers comprehensive rehabilitation and residential care services tailored to the needs of each individual.\n\n**Elderly Care & Rehabilitation**: Specialized programs for age-related conditions including mobility support, chronic disease management, physiotherapy, occupational therapy, and memory care for dementia patients.\n\n**Mental Health Rehabilitation**: Evidence-based treatment programs for individuals facing mental health challenges, including psychiatric evaluation, medication management, counseling, behavioral therapy, and social skills development.\n\n**Residential Care**: Safe, comfortable accommodation with 24/7 medical supervision, nutritious meals prepared to cultural preferences, recreational activities, and spiritual support.\n\n**Family Support Services**: Regular family consultations, caregiver training, transition planning, and ongoing communication to ensure families remain involved in their loved one's care journey.\n\n**Therapeutic Programs**: Group therapy sessions, art and music therapy, physical rehabilitation, cognitive stimulation activities, and community integration programs designed to promote independence and wellbeing.",
+      "imagePrompt": "Collage-style photorealistic scenes showing various rehabilitation activities in a Nigerian care home: elderly person in physiotherapy session, group therapy circle, residents enjoying meals together, peaceful garden walks, all bathed in natural Nigerian sunlight",
+      "layout": "grid"
+    },
+    {
+      "id": "team",
+      "name": "Our Professional Team",
+      "copy": "REHAMEC's strength lies in our dedicated team of qualified professionals who bring both expertise and genuine compassion to their work. Our staff includes licensed medical doctors, registered nurses, mental health specialists, physiotherapists, occupational therapists, nutritionists, and trained caregivers—all committed to providing the highest standard of care. Each team member undergoes continuous professional development to stay current with best practices in geriatric and mental health care. We maintain appropriate staff-to-resident ratios to ensure personalized attention and immediate response to any needs. Our team understands the cultural sensitivities important to Nigerian families and works collaboratively with families to honor individual preferences while delivering evidence-based care. At REHAMEC, every team member is united by a single mission: restoring dignity, independence, and hope to those we serve.",
+      "imagePrompt": "Professional portrait of diverse Nigerian healthcare workers in medical scrubs and professional attire, standing confidently in a bright, modern rehabilitation facility, displaying warmth and competence, with certificates and medical equipment visible in background",
+      "layout": "centered"
+    },
+    {
+      "id": "contact",
+      "name": "Contact REHAMEC",
+      "copy": "Take the first step toward quality care for your loved one. Contact REHAMEC today to schedule a facility tour, discuss care options, or speak with our admissions team. We understand that choosing the right care facility is one of the most important decisions you'll make, and we're here to answer all your questions with transparency and compassion.\n\n**Location**: Umuada Obehie, Asa, Nigeria\n\n**Phone**: 07066568744\n\n**Available**: 24/7 for emergencies and inquiries\n\nOur admissions team will guide you through the process, help you understand care options, and work with you to create a personalized care plan that meets your family's needs and budget. We welcome visits by appointment so you can see our facilities and meet our team firsthand. Reach out today—we're here to help.",
+      "imagePrompt": "Welcoming entrance of a modern Nigerian healthcare facility with clear signage, well-maintained grounds, security gate, paved driveway, and lush tropical vegetation, photographed during golden hour to convey warmth and accessibility",
+      "layout": "default"
+    },
+    {
+      "id": "faq",
+      "name": "Frequently Asked Questions",
+      "copy": "**What conditions does REHAMEC treat?**\nWe provide care for elderly individuals requiring assistance with daily living, chronic disease management, dementia care, and post-surgical rehabilitation. We also offer specialized mental health rehabilitation for various conditions including depression, anxiety disorders, schizophrenia, and bipolar disorder.\n\n**What are your admission requirements?**\nWe require a medical assessment, relevant medical records, and a consultation with our clinical team. We work with families to ensure our facility can meet the specific needs of each potential resident.\n\n**Can families visit residents?**\nAbsolutely. We encourage family involvement and have flexible visiting hours. Family participation is an important part of the recovery and care process.\n\n**What is included in the care fees?**\nOur fees cover accommodation, meals, 24/7 medical supervision, prescribed therapies, recreational activities, and basic medical supplies. Specialized medications and procedures may incur additional costs, which we discuss transparently during admission.\n\n**Is REHAMEC licensed?**\nYes, REHAMEC operates in full compliance with Nigerian healthcare regulations and maintains the necessary licenses and certifications for residential care and rehabilitation services.\n\n**How do I know if residential care is the right choice?**\nOur admissions team offers free consultations to help families assess their options. We can discuss your loved one's specific needs and whether our services align with their care requirements.",
+      "imagePrompt": "Clean, modern consultation room in a Nigerian healthcare facility with comfortable seating, informational brochures on a coffee table, family photos on walls showing intergenerational care, natural light streaming through windows with plants, conveying openness and trust",
+      "layout": "default"
+    }
+  ],
+  "contact": {
+    "phone": "07066568744",
+    "email": "",
+    "address": "Umuada Obehie, Asa, Nigeria",
+    "whatsapp": "https://wa.me/2347066568744"
+  }
+}
