@@ -1,56 +1,70 @@
 {
-  "businessName": "REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged",
-  "industry": "Healthcare & Social Services",
-  "tone": "compassionate, professional, trustworthy",
-  "tagline": "Providing Dignity, Care, and Hope to Our Most Vulnerable",
+  "businessName": "Mikcoson Leasing Limited",
+  "industry": "Financial Services - Equipment Leasing & Finance",
+  "tone": "formal",
+  "tagline": "Empowering Nigerian Businesses Through Strategic Equipment Finance Solutions",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged. Providing Dignity, Care, and Hope to Our Most Vulnerable. At REHAMEC, we offer specialized rehabilitation and residential care services for elderly individuals and those facing mental health challenges across Nigeria. Our facility in Umuada Obehie combines medical expertise with compassionate support to restore independence and quality of life.",
-      "imagePrompt": "Warm, sunlit Nigerian care facility with elderly residents and caregivers sharing peaceful moments in a modern, clean communal space with local architectural touches, lush gardens visible through windows, conveying dignity and hope",
+      "copy": "Mikcoson Leasing Limited - Your Trusted Partner in Equipment Finance. We provide flexible leasing and financing solutions that enable Nigerian businesses to acquire essential equipment without the burden of full capital outlay. From heavy machinery to technology infrastructure, we make business growth accessible and sustainable.",
+      "imagePrompt": "Professional Nigerian business setting with modern office building, construction equipment and industrial machinery in background, corporate blue and gold tones, Lagos skyline or Port Harcourt industrial zone, morning sunlight, photorealistic, high-end financial services aesthetic",
       "layout": "centered"
     },
     {
       "id": "about",
-      "name": "About REHAMEC",
-      "copy": "REHAMEC stands as a beacon of hope for families across Nigeria seeking professional, compassionate care for their elderly loved ones and individuals facing mental health challenges. Located in the peaceful community of Umuada Obehie, Asa, we provide a safe, nurturing environment where dignity meets dedicated rehabilitation. Our multidisciplinary team of healthcare professionals, therapists, and trained caregivers work together to create personalized care plans that address both physical and mental health needs. We understand the unique cultural context of Nigerian families and the importance of maintaining connections while providing specialized support. Every resident receives individualized attention in our modern facility, designed to feel like home while offering the medical and therapeutic interventions necessary for recovery and improved quality of life.",
-      "imagePrompt": "Professional Nigerian healthcare team consisting of doctors, nurses, and therapists standing together in a modern rehabilitation facility, with traditional Nigerian patterns subtly incorporated in the interior design, natural lighting creating a warm atmosphere",
+      "name": "About Us",
+      "copy": "Mikcoson Leasing Limited, also operating as Mikcoson Equipment Finance Co, is a leading financial services institution specializing in equipment leasing and asset financing across Nigeria. Based in Umuada Obehie Asa, we serve businesses nationwide with tailored financial solutions that drive operational efficiency and business expansion. Under the experienced leadership of our Trust Company Director, we have built a reputation for integrity, transparency, and deep understanding of Nigerian business needs. Whether you're in construction, manufacturing, agriculture, healthcare, or technology, we structure financing packages that align with your cash flow and growth objectives. Our mission is simple: to remove financial barriers and give Nigerian enterprises the tools they need to compete and thrive in today's economy.",
+      "imagePrompt": "Modern Nigerian corporate boardroom with diverse professional team reviewing financial documents, warm wooden furniture, glass walls showing bustling Lagos business district, natural lighting, professional photography style, confidence and trust atmosphere",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "REHAMEC offers comprehensive rehabilitation and residential care services tailored to the needs of each individual.\n\n**Elderly Care & Rehabilitation**: Specialized programs for age-related conditions including mobility support, chronic disease management, physiotherapy, occupational therapy, and memory care for dementia patients.\n\n**Mental Health Rehabilitation**: Evidence-based treatment programs for individuals facing mental health challenges, including psychiatric evaluation, medication management, counseling, behavioral therapy, and social skills development.\n\n**Residential Care**: Safe, comfortable accommodation with 24/7 medical supervision, nutritious meals prepared to cultural preferences, recreational activities, and spiritual support.\n\n**Family Support Services**: Regular family consultations, caregiver training, transition planning, and ongoing communication to ensure families remain involved in their loved one's care journey.\n\n**Therapeutic Programs**: Group therapy sessions, art and music therapy, physical rehabilitation, cognitive stimulation activities, and community integration programs designed to promote independence and wellbeing.",
-      "imagePrompt": "Collage-style photorealistic scenes showing various rehabilitation activities in a Nigerian care home: elderly person in physiotherapy session, group therapy circle, residents enjoying meals together, peaceful garden walks, all bathed in natural Nigerian sunlight",
+      "copy": "Equipment Leasing: Acquire vehicles, machinery, and industrial equipment through flexible lease agreements with minimal upfront investment. Technology Finance: Access the latest computers, servers, and IT infrastructure through structured payment plans. Construction Equipment Finance: Get diggers, cranes, generators, and heavy machinery to keep your projects moving forward. Medical Equipment Leasing: Equip your healthcare facility with diagnostic machines, surgical equipment, and ambulances without depleting working capital. Agricultural Equipment Finance: Obtain tractors, harvesters, irrigation systems, and processing equipment to modernize your farm operations. Manufacturing Machinery: Finance production lines, packaging equipment, and quality control systems for your factory. Structured Payment Plans: We customize repayment schedules to match your seasonal revenue patterns and business cycles.",
+      "imagePrompt": "Collage-style composition showing diverse Nigerian business equipment - construction excavator, medical CT scanner, farming tractor, office computers, manufacturing assembly line - all in active use by Nigerian workers, vibrant and industrious atmosphere, photorealistic, wide angle view",
       "layout": "grid"
     },
     {
-      "id": "team",
-      "name": "Our Professional Team",
-      "copy": "REHAMEC's strength lies in our dedicated team of qualified professionals who bring both expertise and genuine compassion to their work. Our staff includes licensed medical doctors, registered nurses, mental health specialists, physiotherapists, occupational therapists, nutritionists, and trained caregivers—all committed to providing the highest standard of care. Each team member undergoes continuous professional development to stay current with best practices in geriatric and mental health care. We maintain appropriate staff-to-resident ratios to ensure personalized attention and immediate response to any needs. Our team understands the cultural sensitivities important to Nigerian families and works collaboratively with families to honor individual preferences while delivering evidence-based care. At REHAMEC, every team member is united by a single mission: restoring dignity, independence, and hope to those we serve.",
-      "imagePrompt": "Professional portrait of diverse Nigerian healthcare workers in medical scrubs and professional attire, standing confidently in a bright, modern rehabilitation facility, displaying warmth and competence, with certificates and medical equipment visible in background",
-      "layout": "centered"
+      "id": "why-choose-us",
+      "name": "Why Choose Mikcoson",
+      "copy": "Competitive Interest Rates: We offer some of the most attractive financing rates in Nigeria's equipment leasing sector. Flexible Terms: Lease periods from 12 to 60 months tailored to your business model and asset depreciation. Fast Approval Process: Get preliminary approval within 48 hours and full documentation completed in under two weeks. Local Understanding: As a Nigerian company, we understand local business challenges, seasonal patterns, and regulatory requirements. Asset Management Support: Beyond financing, we provide guidance on equipment maintenance, insurance, and eventual buyout options. Nationwide Coverage: From Lagos to Abuja, Port Harcourt to Kano, we serve businesses across all Nigerian states. Transparent Pricing: No hidden fees or surprise charges - you'll know your total cost from day one.",
+      "imagePrompt": "Nigerian business owner shaking hands with financial advisor in modern office, documents on table showing approved financing, genuine smiles, professional attire, natural window lighting, trust and partnership conveyed, photorealistic business portrait style",
+      "layout": "cards"
     },
     {
-      "id": "contact",
-      "name": "Contact REHAMEC",
-      "copy": "Take the first step toward quality care for your loved one. Contact REHAMEC today to schedule a facility tour, discuss care options, or speak with our admissions team. We understand that choosing the right care facility is one of the most important decisions you'll make, and we're here to answer all your questions with transparency and compassion.\n\n**Location**: Umuada Obehie, Asa, Nigeria\n\n**Phone**: 07066568744\n\n**Available**: 24/7 for emergencies and inquiries\n\nOur admissions team will guide you through the process, help you understand care options, and work with you to create a personalized care plan that meets your family's needs and budget. We welcome visits by appointment so you can see our facilities and meet our team firsthand. Reach out today—we're here to help.",
-      "imagePrompt": "Welcoming entrance of a modern Nigerian healthcare facility with clear signage, well-maintained grounds, security gate, paved driveway, and lush tropical vegetation, photographed during golden hour to convey warmth and accessibility",
+      "id": "process",
+      "name": "Our Financing Process",
+      "copy": "Step 1 - Initial Consultation: Contact us via phone or WhatsApp to discuss your equipment needs and business situation. Step 2 - Application Submission: Complete our straightforward application form with your business registration documents, CAC papers, and financial statements. Step 3 - Equipment Evaluation: Our team assesses the equipment value, useful life, and suitability for your business operations. Step 4 - Credit Assessment: We review your business credit history, cash flow projections, and collateral (if required). Step 5 - Approval & Terms: Receive your customized financing proposal with clear payment schedules and terms. Step 6 - Documentation: Sign the lease agreement and complete all legal formalities with our guidance. Step 7 - Equipment Delivery: We facilitate equipment procurement from approved suppliers or release funds for your purchase. Step 8 - Ongoing Support: Throughout the lease period, we provide account management and flexible restructuring if business conditions change.",
+      "imagePrompt": "Clean infographic-style visualization showing numbered steps with Nigerian business context, professional icons representing consultation, documents, equipment, approval stamps, modern office background, blue and gold color scheme, business process flow aesthetic",
       "layout": "default"
+    },
+    {
+      "id": "industries",
+      "name": "Industries We Serve",
+      "copy": "Construction & Real Estate Development: Builders, contractors, and property developers rely on us for site equipment and vehicles. Manufacturing & Production: Factory owners finance production machinery, packaging lines, and quality control equipment. Healthcare & Medical Services: Hospitals, clinics, and diagnostic centers lease medical devices and ambulances. Agriculture & Agribusiness: Farmers and agro-processors access tractors, harvesters, and processing equipment. Transportation & Logistics: Fleet operators and haulage companies finance trucks, trailers, and material handling equipment. Hospitality & Tourism: Hotels and event centers lease kitchen equipment, generators, and furnishings. Technology & IT Services: Tech companies and startups acquire servers, computers, and telecommunications infrastructure. Oil & Gas Services: Support service providers finance specialized equipment for exploration and production activities.",
+      "imagePrompt": "Montage of Nigerian industries - construction site in Lagos, hospital ward with modern equipment, agricultural farm with machinery, busy Lagos port with trucks, all showing active business operations, aerial perspective, golden hour lighting, photorealistic industrial photography",
+      "layout": "grid"
     },
     {
       "id": "faq",
       "name": "Frequently Asked Questions",
-      "copy": "**What conditions does REHAMEC treat?**\nWe provide care for elderly individuals requiring assistance with daily living, chronic disease management, dementia care, and post-surgical rehabilitation. We also offer specialized mental health rehabilitation for various conditions including depression, anxiety disorders, schizophrenia, and bipolar disorder.\n\n**What are your admission requirements?**\nWe require a medical assessment, relevant medical records, and a consultation with our clinical team. We work with families to ensure our facility can meet the specific needs of each potential resident.\n\n**Can families visit residents?**\nAbsolutely. We encourage family involvement and have flexible visiting hours. Family participation is an important part of the recovery and care process.\n\n**What is included in the care fees?**\nOur fees cover accommodation, meals, 24/7 medical supervision, prescribed therapies, recreational activities, and basic medical supplies. Specialized medications and procedures may incur additional costs, which we discuss transparently during admission.\n\n**Is REHAMEC licensed?**\nYes, REHAMEC operates in full compliance with Nigerian healthcare regulations and maintains the necessary licenses and certifications for residential care and rehabilitation services.\n\n**How do I know if residential care is the right choice?**\nOur admissions team offers free consultations to help families assess their options. We can discuss your loved one's specific needs and whether our services align with their care requirements.",
-      "imagePrompt": "Clean, modern consultation room in a Nigerian healthcare facility with comfortable seating, informational brochures on a coffee table, family photos on walls showing intergenerational care, natural light streaming through windows with plants, conveying openness and trust",
+      "copy": "What types of businesses qualify for equipment financing? We work with registered Nigerian businesses across all sectors - from sole proprietorships to limited liability companies. What documents do I need? Typically: CAC business registration, tax clearance certificates, 6-12 months bank statements, director's ID, and equipment quotation. What is the minimum and maximum financing amount? We finance equipment from ₦500,000 to ₦50,000,000 depending on business profile and equipment type. Do you require collateral? Requirements vary by deal size. For amounts under ₦5 million, personal guarantees may suffice. Larger transactions may require asset-backed security. Can I buy the equipment at the end of the lease? Yes, most agreements include a buyout option at fair market value or a predetermined residual amount. What if my business faces temporary cash flow challenges? We offer payment holidays and restructuring options for clients experiencing genuine business difficulties. How long does approval take? Initial assessment within 48 hours. Complete approval and documentation typically 7-14 working days. Do you finance used equipment? Yes, we finance both new and quality pre-owned equipment up to certain age limits depending on asset type.",
+      "imagePrompt": "Professional Nigerian customer service representative wearing headset in modern call center, warm smile, helping client over video call, computer screens showing financial dashboards, clean contemporary office, natural lighting, welcoming atmosphere",
       "layout": "default"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to finance your next equipment purchase? Our team at Mikcoson Leasing Limited is here to help your business grow. Whether you need heavy machinery, medical equipment, technology infrastructure, or agricultural tools, we'll structure a financing solution that works for you. Contact us today for a free consultation and discover how equipment leasing can unlock your business potential without straining your capital. Call, WhatsApp, or email us - we respond to all inquiries within 24 hours during business days.",
+      "imagePrompt": "Welcoming Nigerian office reception area with Mikcoson branding, friendly receptionist at desk, comfortable seating area, corporate awards and certificates on walls, plants and natural light, professional yet approachable atmosphere, photorealistic business interior photography",
+      "layout": "centered"
     }
   ],
   "contact": {
-    "phone": "07066568744",
-    "email": "",
-    "address": "Umuada Obehie, Asa, Nigeria",
+    "phone": "+234 706 656 8744",
+    "email": "info@mikcoson.com",
+    "address": "Umuada Obehie Asa, Nigeria",
     "whatsapp": "https://wa.me/2347066568744"
   }
 }
