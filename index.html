@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Mikcoson Leasing Limited - Equipment Finance Solutions for Nigerian Businesses</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Karla:wght@300;400;500&display=swap">
     <style>
         :root {
-            --color-primary: #15291a;
-            --color-accent: #8ed176;
-            --color-bg: #F0F8F2;
-            --color-text: #1C3222;
-            --color-surface: #305538;
-            --color-secondary-accent: #d86754;
-            --font-display: 'DM Serif Display', serif;
+            --primary-color: #0f0c09;
+            --accent-color: #ab6f48;
+            --bg-color: #F8F4EE;
+            --text-color: #1A1410;
+            --surface-color: #33241e;
+            --secondary-accent: #98a6a9;
+            --font-display: 'Cormorant Garamond', serif;
             --font-body: 'Karla', sans-serif;
-            --border-radius: 12px;
+            --border-radius: 2px;
         }
 
         * {
@@ -32,16 +30,16 @@
 
         body {
             font-family: var(--font-body);
-            color: var(--color-text);
-            background-color: var(--color-bg);
+            color: var(--text-color);
+            background-color: var(--bg-color);
             line-height: 1.7;
-            overflow-x: hidden;
+            font-weight: 400;
         }
 
-        h1, h2, h3 {
+        h1, h2, h3, h4, h5, h6 {
             font-family: var(--font-display);
-            font-weight: 400;
-            line-height: 1.2;
+            font-weight: 600;
+            line-height: 1.3;
         }
 
         @keyframes fadeUp {
@@ -55,64 +53,62 @@
             }
         }
 
-        /* Navigation */
         nav {
             position: sticky;
             top: 0;
-            background: rgba(240, 248, 242, 0.95);
+            background: rgba(248, 244, 238, 0.95);
             backdrop-filter: blur(10px);
-            padding: 1.25rem 5%;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(21, 41, 26, 0.05);
-            animation: fadeUp 0.6s ease forwards;
+            padding: 1rem 0;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
         }
 
-        .nav-container {
-            max-width: 1400px;
+        nav .container {
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .logo {
+        nav .logo {
             font-family: var(--font-display);
             font-size: 1.5rem;
-            color: var(--color-primary);
-            font-weight: 400;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2.5rem;
+            gap: 2rem;
         }
 
         .nav-links a {
             text-decoration: none;
-            color: var(--color-text);
+            color: var(--text-color);
             font-weight: 500;
             transition: color 0.3s ease;
             font-size: 0.95rem;
         }
 
         .nav-links a:hover {
-            color: var(--color-accent);
+            color: var(--accent-color);
         }
 
-        /* Mobile Menu Button */
         .mobile-menu-btn {
             display: none;
             flex-direction: column;
             cursor: pointer;
             gap: 4px;
-            z-index: 1001;
         }
 
         .mobile-menu-btn span {
             width: 25px;
             height: 3px;
-            background: var(--color-text);
+            background: var(--text-color);
             transition: all 0.3s ease;
             transform-origin: center;
         }
@@ -129,14 +125,13 @@
             transform: rotate(-45deg) translate(6px, -6px);
         }
 
-        /* Mobile Menu */
         .mobile-menu {
             position: fixed;
             top: 70px;
             right: -100%;
             width: 300px;
             height: calc(100vh - 70px);
-            background: var(--color-bg);
+            background: var(--bg-color);
             box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
@@ -157,7 +152,7 @@
 
         .mobile-menu ul a {
             text-decoration: none;
-            color: var(--color-text);
+            color: var(--text-color);
             font-size: 1.1rem;
             font-weight: 500;
             transition: color 0.3s ease;
@@ -166,20 +161,38 @@
         }
 
         .mobile-menu ul a:hover {
-            color: var(--color-accent);
+            color: var(--accent-color);
         }
 
-        /* Hero Section */
+        section {
+            padding: 80px 2rem;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        section:nth-child(2) { animation-delay: 0s; }
+        section:nth-child(3) { animation-delay: 0.1s; }
+        section:nth-child(4) { animation-delay: 0.2s; }
+        section:nth-child(5) { animation-delay: 0.3s; }
+        section:nth-child(6) { animation-delay: 0.4s; }
+        section:nth-child(7) { animation-delay: 0.5s; }
+        section:nth-child(8) { animation-delay: 0.6s; }
+        section:nth-child(9) { animation-delay: 0.7s; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
         #hero {
             position: relative;
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             color: white;
+            padding: 80px 2rem;
             overflow: hidden;
-            animation: fadeUp 0.6s ease forwards;
         }
 
         #hero::before {
@@ -189,10 +202,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('https://images.pexels.com/photos/33790183/pexels-photo-33790183.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-image: url('https://images.pexels.com/photos/30677713/pexels-photo-30677713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
             background-size: cover;
             background-position: center;
-            z-index: 0;
+            z-index: -2;
         }
 
         #hero::after {
@@ -203,97 +216,90 @@
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: 1;
+            z-index: -1;
         }
 
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            max-width: 900px;
-            padding: 0 5%;
-        }
-
-        .hero-content h1 {
+        #hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1.5rem;
-            line-height: 1.1;
+            font-weight: 700;
         }
 
-        .hero-content .tagline {
+        #hero .tagline {
             font-size: 1.5rem;
-            margin-bottom: 1rem;
-            font-weight: 500;
-            color: var(--color-accent);
+            margin-bottom: 2rem;
+            font-family: var(--font-display);
+            font-style: italic;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .hero-content p {
-            font-size: 1.15rem;
-            margin-bottom: 2.5rem;
+        #hero .hero-copy {
+            font-size: 1.1rem;
+            max-width: 900px;
+            margin: 0 auto 2.5rem;
             line-height: 1.8;
         }
 
         .cta-button {
             display: inline-block;
             padding: 1rem 2.5rem;
-            background: var(--color-accent);
-            color: var(--color-primary);
+            background: var(--accent-color);
+            color: white;
             text-decoration: none;
             border-radius: var(--border-radius);
             font-weight: 500;
-            font-size: 1.05rem;
             transition: all 0.3s ease;
+            box-shadow: 0 4px 16px rgba(171, 111, 72, 0.3);
         }
 
         .cta-button:hover {
-            background: var(--color-secondary-accent);
-            color: white;
+            background: #8f5a38;
             transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(171, 111, 72, 0.4);
         }
 
-        /* Section Styles */
-        section {
-            padding: 80px 5%;
-            max-width: 1400px;
-            margin: 0 auto;
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
         }
 
-        section h2 {
-            font-size: 2.75rem;
-            margin-bottom: 2rem;
-            color: var(--color-primary);
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            margin-bottom: 3rem;
+            font-family: var(--font-display);
+            font-style: italic;
         }
 
-        /* About Section */
         #about {
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.1s;
+            background: white;
         }
 
-        .about-container {
+        .split-layout {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
             align-items: center;
         }
 
-        .about-image {
+        .split-layout img {
             width: 100%;
             height: 500px;
             object-fit: cover;
             border-radius: var(--border-radius);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         }
 
-        .about-text p {
+        .split-layout .content {
+            padding: 2rem 0;
+        }
+
+        .split-layout .content p {
             font-size: 1.05rem;
-            margin-bottom: 1.5rem;
             line-height: 1.8;
-        }
-
-        /* Services Section */
-        #services {
-            background: white;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.2s;
         }
 
         .services-grid {
@@ -304,21 +310,22 @@
         }
 
         .service-card {
-            background: var(--color-bg);
+            background: white;
             padding: 2rem;
             border-radius: var(--border-radius);
-            transition: transform 0.3s ease;
-            border-left: 4px solid var(--color-accent);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
         }
 
         .service-card h3 {
-            font-size: 1.5rem;
+            color: var(--accent-color);
             margin-bottom: 1rem;
-            color: var(--color-surface);
+            font-size: 1.4rem;
         }
 
         .service-card p {
@@ -326,183 +333,209 @@
             line-height: 1.7;
         }
 
-        /* Team Section */
-        #team {
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.3s;
+        #why-choose-us {
+            background: var(--surface-color);
+            color: var(--bg-color);
         }
 
-        .team-content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
+        #why-choose-us .section-title {
+            color: var(--bg-color);
         }
 
-        .team-image {
-            width: 100%;
-            max-width: 800px;
-            height: 500px;
-            object-fit: cover;
-            border-radius: var(--border-radius);
-            margin-bottom: 2rem;
-        }
-
-        .team-text {
-            max-width: 900px;
-        }
-
-        .team-text p {
-            font-size: 1.05rem;
-            line-height: 1.8;
-        }
-
-        /* Contact Section */
-        #contact {
-            background: var(--color-surface);
-            color: white;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.4s;
-        }
-
-        #contact h2 {
-            color: var(--color-accent);
-        }
-
-        .contact-container {
+        .why-cards {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
         }
 
-        .contact-info p {
-            font-size: 1.05rem;
-            margin-bottom: 2rem;
-            line-height: 1.8;
+        .why-card {
+            background: rgba(248, 244, 238, 0.1);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--accent-color);
         }
 
-        .contact-details {
-            margin-top: 2rem;
+        .why-card h3 {
+            color: var(--accent-color);
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
         }
 
-        .contact-details div {
-            margin-bottom: 1.5rem;
+        .why-card p {
+            line-height: 1.7;
         }
 
-        .contact-details strong {
-            font-size: 1.1rem;
-            color: var(--color-accent);
-            display: block;
+        .process-steps {
+            display: grid;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .process-step {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .process-step .step-number {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            line-height: 1;
+        }
+
+        .process-step .step-content h3 {
+            color: var(--primary-color);
             margin-bottom: 0.5rem;
         }
 
-        .contact-details a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            transition: color 0.3s ease;
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
         }
 
-        .contact-details a:hover {
-            color: var(--color-accent);
-        }
-
-        .contact-image {
-            width: 100%;
-            height: 500px;
-            object-fit: cover;
-            border-radius: var(--border-radius);
-        }
-
-        /* FAQ Section */
-        #faq {
+        .industry-card {
             background: white;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.5s;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+            border-top: 3px solid var(--accent-color);
+        }
+
+        .industry-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
         }
 
         .faq-container {
             max-width: 900px;
-            margin: 0 auto;
+            margin: 3rem auto 0;
         }
 
         .faq-item {
-            margin-bottom: 2.5rem;
-            padding: 1.5rem;
-            background: var(--color-bg);
+            background: white;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
             border-radius: var(--border-radius);
-            border-left: 4px solid var(--color-accent);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
         }
 
-        .faq-item strong {
-            display: block;
-            font-size: 1.25rem;
+        .faq-item h3 {
+            color: var(--primary-color);
             margin-bottom: 1rem;
-            color: var(--color-primary);
-            font-family: var(--font-display);
+            font-size: 1.2rem;
         }
 
         .faq-item p {
-            font-size: 1.05rem;
             line-height: 1.8;
         }
 
-        /* Footer */
-        footer {
-            background: var(--color-primary);
-            color: white;
+        #contact {
+            background: var(--surface-color);
+            color: var(--bg-color);
             text-align: center;
-            padding: 2rem 5%;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.6s;
         }
 
-        footer p {
-            font-size: 0.95rem;
+        #contact .section-title {
+            color: var(--bg-color);
         }
 
-        /* WhatsApp Floating Button */
+        #contact .contact-copy {
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .contact-methods {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .contact-method {
+            background: rgba(248, 244, 238, 0.1);
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            min-width: 250px;
+        }
+
+        .contact-method h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .contact-method a {
+            color: var(--bg-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-method a:hover {
+            color: var(--accent-color);
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2.5rem;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-btn:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
+        }
+
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
+            background: #25D366;
+            color: white;
             width: 60px;
             height: 60px;
-            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            font-size: 2rem;
+            box-shadow: 0 4px 16px rgba(37, 211, 102, 0.4);
             z-index: 1000;
-            transition: transform 0.3s ease;
             text-decoration: none;
+            transition: all 0.3s ease;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
         }
 
-        .whatsapp-float svg {
-            width: 35px;
-            height: 35px;
-            fill: white;
+        footer {
+            background: var(--primary-color);
+            color: var(--bg-color);
+            text-align: center;
+            padding: 2rem;
         }
 
-        /* Responsive */
-        @media (max-width: 1024px) {
-            section {
-                padding: 60px 5%;
-            }
-
-            .hero-content h1 {
-                font-size: 2.75rem;
-            }
-
-            section h2 {
-                font-size: 2.25rem;
-            }
+        footer p {
+            font-size: 0.95rem;
         }
 
         @media (max-width: 768px) {
@@ -515,67 +548,83 @@
             }
 
             section {
-                padding: 48px 5%;
+                padding: 48px 1.5rem;
             }
 
-            .hero-content h1 {
+            #hero h1 {
                 font-size: 2rem;
             }
 
-            .hero-content .tagline {
-                font-size: 1.15rem;
+            #hero .tagline {
+                font-size: 1.1rem;
             }
 
-            .hero-content p {
+            #hero .hero-copy {
                 font-size: 1rem;
             }
 
-            section h2 {
-                font-size: 1.85rem;
+            .section-title {
+                font-size: 2rem;
             }
 
-            .about-container,
-            .contact-container {
+            .split-layout {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
-            .about-image,
-            .contact-image,
-            .team-image {
-                height: 350px;
+            .split-layout img {
+                height: 300px;
             }
 
-            .services-grid {
+            .services-grid,
+            .why-cards,
+            .industries-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .process-step {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .contact-methods {
+                flex-direction: column;
+                align-items: center;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
+                font-size: 1.5rem;
                 bottom: 20px;
                 right: 20px;
             }
+        }
 
-            .whatsapp-float svg {
-                width: 28px;
-                height: 28px;
+        @media (min-width: 769px) and (max-width: 1024px) {
+            section {
+                padding: 60px 2rem;
+            }
+
+            #hero h1 {
+                font-size: 2.8rem;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Navigation -->
     <nav>
-        <div class="nav-container">
-            <div class="logo">REHAMEC</div>
+        <div class="container">
+            <a href="#hero" class="logo">Mikcoson Leasing</a>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#industries">Industries</a></li>
                 <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
                 <span></span>
@@ -585,175 +634,221 @@
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
     <div class="mobile-menu">
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#why-choose-us">Why Choose Us</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#industries">Industries</a></li>
             <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 
-    <!-- Hero Section -->
     <section id="hero">
-        <div class="hero-content">
-            <h1>REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged</h1>
-            <p class="tagline">Providing Dignity, Care, and Hope to Our Most Vulnerable</p>
-            <p>At REHAMEC, we offer specialized rehabilitation and residential care services for elderly individuals and those facing mental health challenges across Nigeria. Our facility in Umuada Obehie combines medical expertise with compassionate support to restore independence and quality of life.</p>
-            <a href="#contact" class="cta-button">Contact Us Today</a>
+        <div class="container">
+            <h1>Mikcoson Leasing Limited</h1>
+            <p class="tagline">Empowering Nigerian Businesses Through Strategic Equipment Finance Solutions</p>
+            <p class="hero-copy">Mikcoson Leasing Limited - Your Trusted Partner in Equipment Finance. We provide flexible leasing and financing solutions that enable Nigerian businesses to acquire essential equipment without the burden of full capital outlay. From heavy machinery to technology infrastructure, we make business growth accessible and sustainable.</p>
+            <a href="#contact" class="cta-button">Get Started Today</a>
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
-        <div class="about-container">
-            <div>
-                <img src="https://images.pexels.com/photos/16903231/pexels-photo-16903231.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="REHAMEC Professional Team" class="about-image">
-            </div>
-            <div class="about-text">
-                <h2>About REHAMEC</h2>
-                <p>REHAMEC stands as a beacon of hope for families across Nigeria seeking professional, compassionate care for their elderly loved ones and individuals facing mental health challenges. Located in the peaceful community of Umuada Obehie, Asa, we provide a safe, nurturing environment where dignity meets dedicated rehabilitation.</p>
-                <p>Our multidisciplinary team of healthcare professionals, therapists, and trained caregivers work together to create personalized care plans that address both physical and mental health needs. We understand the unique cultural context of Nigerian families and the importance of maintaining connections while providing specialized support.</p>
-                <p>Every resident receives individualized attention in our modern facility, designed to feel like home while offering the medical and therapeutic interventions necessary for recovery and improved quality of life.</p>
+        <div class="container">
+            <div class="split-layout">
+                <img src="https://images.pexels.com/photos/1367271/pexels-photo-1367271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mikcoson Leasing Limited - About Us">
+                <div class="content">
+                    <h2 class="section-title">About Us</h2>
+                    <p>Mikcoson Leasing Limited, also operating as Mikcoson Equipment Finance Co, is a leading financial services institution specializing in equipment leasing and asset financing across Nigeria. Based in Umuada Obehie Asa, we serve businesses nationwide with tailored financial solutions that drive operational efficiency and business expansion. Under the experienced leadership of our Trust Company Director, we have built a reputation for integrity, transparency, and deep understanding of Nigerian business needs. Whether you're in construction, manufacturing, agriculture, healthcare, or technology, we structure financing packages that align with your cash flow and growth objectives. Our mission is simple: to remove financial barriers and give Nigerian enterprises the tools they need to compete and thrive in today's economy.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services">
-        <h2>Our Services</h2>
-        <p>REHAMEC offers comprehensive rehabilitation and residential care services tailored to the needs of each individual.</p>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3>Elderly Care & Rehabilitation</h3>
-                <p>Specialized programs for age-related conditions including mobility support, chronic disease management, physiotherapy, occupational therapy, and memory care for dementia patients.</p>
-            </div>
-            <div class="service-card">
-                <h3>Mental Health Rehabilitation</h3>
-                <p>Evidence-based treatment programs for individuals facing mental health challenges, including psychiatric evaluation, medication management, counseling, behavioral therapy, and social skills development.</p>
-            </div>
-            <div class="service-card">
-                <h3>Residential Care</h3>
-                <p>Safe, comfortable accommodation with 24/7 medical supervision, nutritious meals prepared to cultural preferences, recreational activities, and spiritual support.</p>
-            </div>
-            <div class="service-card">
-                <h3>Family Support Services</h3>
-                <p>Regular family consultations, caregiver training, transition planning, and ongoing communication to ensure families remain involved in their loved one's care journey.</p>
-            </div>
-            <div class="service-card">
-                <h3>Therapeutic Programs</h3>
-                <p>Group therapy sessions, art and music therapy, physical rehabilitation, cognitive stimulation activities, and community integration programs designed to promote independence and wellbeing.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Team Section -->
-    <section id="team">
-        <div class="team-content">
-            <h2>Our Professional Team</h2>
-            <img src="https://images.pexels.com/photos/6129494/pexels-photo-6129494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="REHAMEC Healthcare Professionals" class="team-image">
-            <div class="team-text">
-                <p>REHAMEC's strength lies in our dedicated team of qualified professionals who bring both expertise and genuine compassion to their work. Our staff includes licensed medical doctors, registered nurses, mental health specialists, physiotherapists, occupational therapists, nutritionists, and trained caregivers—all committed to providing the highest standard of care.</p>
-                <p>Each team member undergoes continuous professional development to stay current with best practices in geriatric and mental health care. We maintain appropriate staff-to-resident ratios to ensure personalized attention and immediate response to any needs. Our team understands the cultural sensitivities important to Nigerian families and works collaboratively with families to honor individual preferences while delivering evidence-based care.</p>
-                <p>At REHAMEC, every team member is united by a single mission: restoring dignity, independence, and hope to those we serve.</p>
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive Equipment Financing Solutions</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Equipment Leasing</h3>
+                    <p>Acquire vehicles, machinery, and industrial equipment through flexible lease agreements with minimal upfront investment.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Technology Finance</h3>
+                    <p>Access the latest computers, servers, and IT infrastructure through structured payment plans.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Construction Equipment Finance</h3>
+                    <p>Get diggers, cranes, generators, and heavy machinery to keep your projects moving forward.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Medical Equipment Leasing</h3>
+                    <p>Equip your healthcare facility with diagnostic machines, surgical equipment, and ambulances without depleting working capital.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Agricultural Equipment Finance</h3>
+                    <p>Obtain tractors, harvesters, irrigation systems, and processing equipment to modernize your farm operations.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Manufacturing Machinery</h3>
+                    <p>Finance production lines, packaging equipment, and quality control systems for your factory.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Structured Payment Plans</h3>
+                    <p>We customize repayment schedules to match your seasonal revenue patterns and business cycles.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="contact-container">
-            <div class="contact-info">
-                <h2>Contact REHAMEC</h2>
-                <p>Take the first step toward quality care for your loved one. Contact REHAMEC today to schedule a facility tour, discuss care options, or speak with our admissions team. We understand that choosing the right care facility is one of the most important decisions you'll make, and we're here to answer all your questions with transparency and compassion.</p>
-                <div class="contact-details">
-                    <div>
-                        <strong>Location</strong>
-                        <p>Umuada Obehie, Asa, Nigeria</p>
-                    </div>
-                    <div>
-                        <strong>Phone</strong>
-                        <a href="tel:+2347066568744">07066568744</a>
-                    </div>
-                    <div>
-                        <strong>Availability</strong>
-                        <p>24/7 for emergencies and inquiries</p>
+    <section id="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Mikcoson</h2>
+            <p class="section-subtitle">Your Partner in Business Growth</p>
+            <div class="why-cards">
+                <div class="why-card">
+                    <h3>Competitive Interest Rates</h3>
+                    <p>We offer some of the most attractive financing rates in Nigeria's equipment leasing sector.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Flexible Terms</h3>
+                    <p>Lease periods from 12 to 60 months tailored to your business model and asset depreciation.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Fast Approval Process</h3>
+                    <p>Get preliminary approval within 48 hours and full documentation completed in under two weeks.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Local Understanding</h3>
+                    <p>As a Nigerian company, we understand local business challenges, seasonal patterns, and regulatory requirements.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Asset Management Support</h3>
+                    <p>Beyond financing, we provide guidance on equipment maintenance, insurance, and eventual buyout options.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Nationwide Coverage</h3>
+                    <p>From Lagos to Abuja, Port Harcourt to Kano, we serve businesses across all Nigerian states.</p>
+                </div>
+                <div class="why-card">
+                    <h3>Transparent Pricing</h3>
+                    <p>No hidden fees or surprise charges - you'll know your total cost from day one.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="process">
+        <div class="container">
+            <h2 class="section-title">Our Financing Process</h2>
+            <p class="section-subtitle">Simple Steps to Equipment Ownership</p>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Initial Consultation</h3>
+                        <p>Contact us via phone or WhatsApp to discuss your equipment needs and business situation.</p>
                     </div>
                 </div>
-                <p>Our admissions team will guide you through the process, help you understand care options, and work with you to create a personalized care plan that meets your family's needs and budget. We welcome visits by appointment so you can see our facilities and meet our team firsthand. Reach out today—we're here to help.</p>
-            </div>
-            <div>
-                <img src="https://images.pexels.com/photos/33662816/pexels-photo-33662816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="REHAMEC Facility" class="contact-image">
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Application Submission</h3>
+                        <p>Complete our straightforward application form with your business registration documents, CAC papers, and financial statements.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Equipment Evaluation</h3>
+                        <p>Our team assesses the equipment value, useful life, and suitability for your business operations.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Credit Assessment</h3>
+                        <p>We review your business credit history, cash flow projections, and collateral (if required).</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Approval & Terms</h3>
+                        <p>Receive your customized financing proposal with clear payment schedules and terms.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3>Documentation</h3>
+                        <p>Sign the lease agreement and complete all legal formalities with our guidance.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">7</div>
+                    <div class="step-content">
+                        <h3>Equipment Delivery</h3>
+                        <p>We facilitate equipment procurement from approved suppliers or release funds for your purchase.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">8</div>
+                    <div class="step-content">
+                        <h3>Ongoing Support</h3>
+                        <p>Throughout the lease period, we provide account management and flexible restructuring if business conditions change.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section -->
+    <section id="industries">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="section-subtitle">Financing Solutions Across All Sectors</p>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <h3>Construction & Real Estate Development</h3>
+                    <p>Builders, contractors, and property developers rely on us for site equipment and vehicles.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Manufacturing & Production</h3>
+                    <p>Factory owners finance production machinery, packaging lines, and quality control equipment.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Healthcare & Medical Services</h3>
+                    <p>Hospitals, clinics, and diagnostic centers lease medical devices and ambulances.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Agriculture & Agribusiness</h3>
+                    <p>Farmers and agro-processors access tractors, harvesters, and processing equipment.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Transportation & Logistics</h3>
+                    <p>Fleet operators and haulage companies finance trucks, trailers, and material handling equipment.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Hospitality & Tourism</h3>
+                    <p>Hotels and event centers lease kitchen equipment, generators, and furnishings.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Technology & IT Services</h3>
+                    <p>Tech companies and startups acquire servers, computers, and telecommunications infrastructure.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Oil & Gas Services</h3>
+                    <p>Support service providers finance specialized equipment for exploration and production activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="faq">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faq-container">
-            <div class="faq-item">
-                <strong>What conditions does REHAMEC treat?</strong>
-                <p>We provide care for elderly individuals requiring assistance with daily living, chronic disease management, dementia care, and post-surgical rehabilitation. We also offer specialized mental health rehabilitation for various conditions including depression, anxiety disorders, schizophrenia, and bipolar disorder.</p>
-            </div>
-            <div class="faq-item">
-                <strong>What are your admission requirements?</strong>
-                <p>We require a medical assessment, relevant medical records, and a consultation with our clinical team. We work with families to ensure our facility can meet the specific needs of each potential resident.</p>
-            </div>
-            <div class="faq-item">
-                <strong>Can families visit residents?</strong>
-                <p>Absolutely. We encourage family involvement and have flexible visiting hours. Family participation is an important part of the recovery and care process.</p>
-            </div>
-            <div class="faq-item">
-                <strong>What is included in the care fees?</strong>
-                <p>Our fees cover accommodation, meals, 24/7 medical supervision, prescribed therapies, recreational activities, and basic medical supplies. Specialized medications and procedures may incur additional costs, which we discuss transparently during admission.</p>
-            </div>
-            <div class="faq-item">
-                <strong>Is REHAMEC licensed?</strong>
-                <p>Yes, REHAMEC operates in full compliance with Nigerian healthcare regulations and maintains the necessary licenses and certifications for residential care and rehabilitation services.</p>
-            </div>
-            <div class="faq-item">
-                <strong>How do I know if residential care is the right choice?</strong>
-                <p>Our admissions team offers free consultations to help families assess their options. We can discuss your loved one's specific needs and whether our services align with their care requirements.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 REHAMEC - Rehabilitation Home for the Aged and Mentally Challenged. All rights reserved.</p>
-    </footer>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/2347066568744" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.247 1.417 1.433-5.204-0.321-0.525c-1.362-2.22-2.088-4.772-2.088-7.386 0-7.696 6.271-13.967 13.967-13.967s13.967 6.271 13.967 13.967-6.438 14.060-14.134 14.060zM21.52 18.739c-0.397-0.199-2.35-1.159-2.714-1.293-0.365-0.133-0.63-0.199-0.894 0.199s-1.027 1.293-1.26 1.559c-0.232 0.265-0.464 0.298-0.861 0.099s-1.68-0.619-3.198-1.973c-1.182-1.054-1.98-2.357-2.213-2.754s-0.025-0.611 0.174-0.808c0.179-0.178 0.397-0.464 0.596-0.696s0.265-0.398 0.397-0.663c0.133-0.265 0.066-0.497-0.033-0.696s-0.894-2.15-1.226-2.943c-0.322-0.772-0.649-0.667-0.894-0.679-0.231-0.012-0.497-0.014-0.762-0.014s-0.695 0.099-1.060 0.497c-0.365 0.398-1.394 1.36-1.394 3.318s1.427 3.85 1.626 4.115c0.199 0.265 2.807 4.283 6.802 6.006 0.95 0.411 1.691 0.655 2.269 0.839 0.957 0.303 1.829 0.26 2.517 0.158 0.768-0.115 2.35-0.96 2.682-1.888s0.331-1.723 0.232-1.888c-0.099-0.165-0.364-0.265-0.761-0.464z"/>
-        </svg>
-    </a>
-
-    <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-        const mobileMenu = document.querySelector('.mobile-menu');
-
-        if (mobileMenuBtn && mobileMenu) {
-            mobileMenuBtn.addEventListener('click', () => {
-                mobileMenuBtn.classList.toggle('active');
-                mobileMenu.classList.toggle('active');
-            });
-
-            // Close mobile menu when clicking a link
-            const mobileLinks = mobileMenu.querySelectorAll('a');
-            mobileLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    mobileMenuBtn.classList.remove('active');
-                    mobileMenu.classList.remove('active');
-                });
-            });
-        }
-    </script>
-</body>
-</html>
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Everything You Need to Know
